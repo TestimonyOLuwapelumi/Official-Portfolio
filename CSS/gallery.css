@@ -6,10 +6,10 @@ html {
   font-family: "Montserrat", "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 1.5;
 }
-.gallery{
+/* .gallery{
     margin-top: 100px;
 
-}
+} */
 
 .fadein {
   opacity: 0;

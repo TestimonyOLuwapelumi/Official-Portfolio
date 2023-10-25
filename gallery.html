@@ -19,7 +19,8 @@
   <link rel="stylesheet" href="/CSS/bootstrap.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css'><link rel="stylesheet" href="./CSS/gallery.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css'>
+  <link rel="stylesheet" href="./CSS/gallery.css">
 
 </head>
 <body>
@@ -60,11 +61,30 @@
             </div>
         </nav>
     </header>
+    <main id="">
+      <section class="background">
+          <div id="sec-main" data-ix="main-slide-show" class="sec-main-window" data-aos="fade-up">
+              <div class="main-wrap">
+                  <div class="title-wrap">
+                      <h4 data-ix="init-transparent" class="title-cashew"
+                          style="opacity: 1; transition: opacity 500ms ease 0s;">Gallery</h4>
+
+                      <h5 data-ix="init-transparent" class="title-sort" style="color: #000000;">
+                      </h5>
+                      <a href="#click" data-ix="init-transparent" class="btn-details"
+                            style="transition: all 0.3s ease-in-out 0s, opacity 500ms ease 0s; opacity: 1;">More
+                            details</a>
+                  </div>
+              </div>
+              <div class="green-line"></div>
+      </section>
+  </main>
+
 
 
 
 <!-- partial:index.partial.html -->
-<div class="gallery" itemscope="" itemtype="http://schema.org/ImageGallery">
+<div class="gallery" itemscope="" itemtype="http://schema.org/ImageGallery" id="click">
   <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="https://source.unsplash.com/-gS54SWrHMg/2000x1000" itemprop="contentUrl" data-size="2000x1000"><img class="lazyload lazypreload fadein" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http://www.w3.org/2000/svg'%20viewBox%3D'0%200%201000%20500'%20%2F%3E" data-src="https://source.unsplash.com/-gS54SWrHMg/1000x500" itemprop="thumbnail" alt="Image description"/></a>
     <figcaption class="gallery-caption" itemprop="caption description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, inventore!</figcaption>
   </figure>
